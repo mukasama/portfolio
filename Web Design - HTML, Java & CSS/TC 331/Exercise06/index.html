@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>rugby</title>
+<link href="style.css" rel="stylesheet">
+<script src="rugby.js"></script>
+</head>
+<body>
+<form id="game" method="post" action="#">
+<fieldset>
+
+<h1>MSU Rugby Try Out's!</h1>
+<p>This is the signup form for the Michigan State University Men's Rugby Team tryouts. Please enter your First and Last Name and then choose the position which you would like to try out for.</p>
+<br>
+<div>
+<label for="playerfirstname">First Name</label>
+<input id="playerfirstname" type="text" required name="playerfirstname">
+</div>
+<div>
+<label for="playersecondname">Last Name</label>
+<input id="playersecondname" type="text" required name="playersecondname">
+</div>
+<div>
+<label for="email">MSU Email :</label>
+<input id="email" type="text" required name="email">
+</div>
+<div>
+<label for="rugbypositions">Rugby Position</label>
+<select id="rugbypositions" name="rugbypositions">
+<option value="Loose-Head">Loose-Head Prop</option>
+<option value="Hooker">Hooker  </option>
+<option value="Tight-Head">Tight-Head Prop</option>
+<option value="Second Row">Second Row</option>
+<option value="Second Row">Second Row</option>
+<option value="Blind-Side">Blind-Side Flanker</option>
+<option value="Open-Side">Open-Side Flanker</option>
+<option value="Number Eight">Number 8</option>
+<option value="Scrum-Half">Scrum-Half</option>
+<option value="Fly-Half">Fly-Half</option>
+<option value="Left Wing">Left Wing</option>
+<option value="Right Wing">Right Wing</option>
+<option value="Inside">Inside Centre</option>
+<option value="Outside">Outside Centre</option>
+<option value="Full-Back">Full-Back</option>
+</select>
+</div>
+<br />
+<input id="submit" type="submit" value="Add">
+<h3><b>Registered Player</b></h3>
+<div id="title">
+<b>
+<p id="name">First</p>
+<p id="type">Last</p>
+<p id="email">Email</p>
+<p id="position">Position</p>
+<p id="date">Date</p>
+</b>
+</div>
+<div id="tableID"></div>
+</pre>
+</fieldset>
+<div id="output"></div>
+</form>
+
+</body>
+</html>

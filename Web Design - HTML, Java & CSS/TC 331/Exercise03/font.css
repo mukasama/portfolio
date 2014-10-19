@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#000066 ;
+}
+
+@font-face {
+	font-family:TheGirlNextDoor;
+	src: url(fonts/TheGirlNextDoor.ttf);
+}
+
+@font-face {
+	font-family:FreckleFace;
+	src: url(fonts/FreckleFace.ttf);
+}
+
+@font-face {
+	font-family:Butcherman;
+	src: url(fonts/Butcherman.ttf);
+}
+
+#changeFont {
+	background: #333333;
+	font-family:TheGirlNextDoor;
+	font-size: 24pt;
+	color: #ffffff;
+}

@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	
+}
+
+.container {
+	width: 960px;
+	height: 720px;
+	background-color: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+.image { 
+   position:absolute; 
+   width: 100%;
+   alignment-adjust:central;
+}
+
+.imageText
+ {
+	position: absolute;
+	top: 17px;
+	left: 23px;
+	width: 892px;
+	height: 116px;
+	font-family:"Comic Sans MS", cursive;
+}
+
+.content {
+
+	padding: 10px 0;
+		border-width:10px;	
+		border-style: none;
+}
+
+.footer {
+	padding: 10px 0;
+	text-align: center;
+}
+iframe {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+h2 {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}

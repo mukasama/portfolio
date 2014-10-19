@@ -1,0 +1,41 @@
+body
+{
+	background:#06F;
+	width:auto;
+	height:auto;
+}
+
+h1{
+	color:white; /*I do not own this picture */
+}
+
+form {
+    margin: 1em;
+    width: 15em;
+}
+
+label {
+    clear: both;
+    display: block;
+    float: none;
+    width: 12em;
+}
+
+input {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    display: block;
+    float: left;
+    font: bold 1em arial,sans-serif;
+    padding: 0.15em;
+    width: 5em;
+}
+
+input:hover, input:focus {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border-color: #C5C5C5;
+}
+    
+br{
+	 font-size: 14px;
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+
+<body>
+
+<form id="myForm" method="post" action="">
+
+<fieldset>
+<h1><img src="shop.JPG" width="400" height="120" alt="title"></h1>
+<b>Threshold : 3,000</b><br />
+<br />
+
+<div>
+<label for="length"><b>Length</b></label>
+<input id="length" type="text" required name="length">
+</div><br />
+<br />
+
+<div>
+<label for="width"><b>Width</b></label>
+<input id="width" type="text" required name="width">
+</div><br />
+<br />
+
+<div>
+<label for="height"><b>Height</b></label>
+<input id="height" type="text" required name="height">
+</div><br />
+<br />
+
+<div>
+<label for="volume"><b>Volume</b></label>
+<input id="volume" type="text" name="volume">
+</div><br />
+<br />
+
+<div>
+<label for="weight"><b>Weight</b></label>
+<input id="weight" type="text" name="weight" style="color: red;">
+</div><br />
+<br />
+
+<div>
+<input id="submit" type="submit" value="Calculate">
+</div>
+</fieldset>
+</form>
+
+<script src="calculator.js"></script>
+
+<audio id="demo" src="sound.mp3" autoplay loop></audio>
+<footer>
+<button onclick="play();">
+<img src="images/play.JPG">
+</button>
+<button onclick="pause();">
+<img src="images/pause.JPG">
+</button>
+<button onclick="volumeup();">
+<img src="images/vup.JPG">
+</button>
+<button onclick="volumedown();">
+<img src="images/vdw.JPG">
+</button>
+</footer>
+
+
+
+
+</body>
+</html>

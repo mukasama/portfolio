@@ -1,0 +1,82 @@
+/* Yes, this is blank. That's OK! You're gonna fill this with AWESOME. FS13-2 */
+
+body{
+width: 750px;
+margin: 1.5em auto;
+background-color:#3399FF; /*Light Blue*/
+border-color:#7b99ae; /*Medium grey color*/
+border-style:solid;
+border-width:10px;
+padding:30px;
+}
+
+html{
+	background-image:url(background.jpg);
+}
+
+/*Font-Family to all text and colors added*/
+
+h1{
+	color:#CCCCCC; /*Light Gray color*/
+	font-family:"Comic Sans MS", cursive;
+}
+
+p{
+font-family:"Comic Sans MS", cursive;
+color:#FFFFFF; /*White color*/
+font-size: 86%;
+}
+
+ul{
+font-family:"Comic Sans MS", cursive;	
+}
+
+li{
+font-family:"Comic Sans MS", cursive;
+color:#FFFFFF; /*White color*/
+text-indent:hanging;
+list-style-type:square;
+font-size: 86%;
+}
+
+a{
+	color:#0099ff; /*Pure Blue*/
+	text-decoration: none;
+	font-family:"Comic Sans MS", cursive;
+}
+
+/*Navigation Text*/
+
+#nav ul{
+font-size:11px;
+font-family:"Comic Sans MS", cursive;
+}
+
+#nav li{
+font-size: 11px;
+font-family:"Comic Sans MS", cursive;
+list-style-type:none;
+}
+
+#nav a{
+font-size: 11px;
+font-family:"Comic Sans MS", cursive;	
+}
+
+#nav{
+list-style: none;
+font-family:"Comic Sans MS", cursive;
+border-color:#FF33FF;
+border-style:solid;
+border-width:thin;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+padding-bottom:5px;
+background-color:#cccccc;
+width: 115px;
+float:left;
+margin-left: 25px;
+margin-right: 25px;
+margin-bottom: 5px;
+}

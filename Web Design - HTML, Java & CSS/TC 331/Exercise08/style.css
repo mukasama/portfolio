@@ -1,0 +1,16 @@
+body{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:14px;
+	color:#000;
+	background-size:15000px;
+	background:#000;
+	background-image:url(images.jpg)	
+}
+
+#hello{
+	margin-top:200px;
+	text-align:center;
+	alignment-adjust:central;
+	alignment-adjust:middle;
+}
+

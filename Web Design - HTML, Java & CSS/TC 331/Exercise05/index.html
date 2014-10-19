@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="style5.css">
+</head>
+
+<body>
+<h3><u>Exercise 5</u></h3>
+
+<h4><i><u>Please Enter values below to be calculated!</u></i></h4>
+
+<form action="" method="post" id="mygrades">
+	
+    <fieldset>
+    	<h2><legend><b>Rubric</b></legend></h2>
+        
+		<div><label for="Exercises" name="exercises">Exercises</label>
+        <input name="exercises" id="exercises" type="text" size="14" required></div>
+        
+        <br />
+        
+		<div><label for="mp" name="mp">Mini-projects</label>
+        <input name="mp" id="mp" type="text" size="10" required></div>
+        
+        <br />
+        
+		<div><label for="Final" name="final">Final</label>
+        <input name="final" id="final" type="text" size="19" required></div>
+	</fieldset>
+    
+    <P></P>
+    
+	<fieldset>
+       	<h2><legend><b>Grade</b></legend></h2>
+        
+        <div id="title">
+        <b>
+        <p id="name">Name</p>
+        <p id="type">Type</p>
+        <p id="grade">Grade</p>
+        </b>
+        </div>
+
+		<div><label for="1" name="field1">1. </label>
+        <input name="field1" id="field1" type="text" required>
+        <select name="type1" id="type1" required>
+            <option selected="selected" value="exercises">Exercises</option>
+			<option value="mp">Mini-projects</option>
+			<option value="final">Final</option>
+			</select>
+			<input name="grade1" id="grade1" type="text" required>
+			</div>
+            
+		<div><label for="2" name="field2">2. </label>
+        <input name="field2" id="field2" type="text" required>
+        <select name="type2" id="type2" required>
+			<option selected="selected" value="exercises">Exercises</option>
+			<option value="mp">Mini-projects</option>
+			<option value="final">Final</option>
+			</select>
+			<input name="grade2" id="grade2" type="text" required>
+			</div>
+            
+		<div><label for="3" name="field3">3. </label>
+        <input name="field3" id="field3" type="text" required>
+        <select name="type3" id="type3" required>
+        	<option selected="selected" value="exercises">Exercises</option>
+			<option value="mp">Mini-projects</option>
+			<option value="final">Final</option>
+			</select>
+			<input name="grade3" id="grade3" type="text" required>
+			</div>
+            
+		<div><label for="4" name="field4">4. </label>
+        <input name="field4" id="field4" type="text" required>
+        <select name="type4" id="type4" required>
+			<option selected="selected" value="exercises">Exercises</option>
+			<option value="mp">Mini-projects</option>
+			<option value="final">Final</option>
+			</select>
+			<input name="grade4" id="grade4" type="text" required>
+			</div>
+            
+			<p></p>
+            <br />
+                        
+            <div><input value="Submit" id="submit" type="submit">    
+            <label for="total" name="total"><b>Total:</b></label>
+            <input name="total" id="total" type="text" size="13" ></div>           
+            
+	</fieldset>
+
+</form>
+
+	<script src="calc.js" type="text/javascript"></script>
+
+
+</body>
+</html>

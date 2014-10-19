@@ -1,0 +1,78 @@
+body{
+font-family:"Courier New", Courier, monospace;
+font-size:15px;
+color:#000;
+background-image:url(blue.jpg);
+}
+
+h1, h3{
+text-align:center;
+text-decoration:underline;
+}
+
+#title p{
+	
+	display:inline;	
+}
+
+#firstName{
+	margin-left:15px;
+}
+#lastName{
+	margin-left:22px;
+}
+#address{
+	margin-left:42px;
+}
+#city{
+	margin-left:69px;
+}
+#state{
+	margin-left:61px;
+}
+
+#zipCode{
+	margin-left:34px;
+}
+
+#phoneNumber{
+	margin-left:7px;
+}
+
+input{
+font-size:12px;
+padding:2px 3px;
+border:solid 2px #BFBD9F;
+width: 150px;
+margin:1px 0 20px 10px;
+}
+
+form{
+margin:0 auto;
+width:500px;
+padding:15px;
+margin-top:150px;
+border:dashed;
+background-image:url(dots.jpg);
+}
+
+p {
+margin: 0;
+padding-left: 20px;
+   
+}
+
+#submit{
+clear:both;
+margin-left:330px;
+width:100px;
+height:30px;
+background:#F1F2D8;
+text-align:center;
+line-height:20px;
+color:#000000;
+font-size:12px;
+}
+
+
+

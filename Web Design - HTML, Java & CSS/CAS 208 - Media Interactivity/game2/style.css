@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+background-color:#FFFF00;
+/*background-image:url(stars.jpg);*/
+text-align:center;
+}
+
+h1
+{
+color:#FFF;/*White*/
+text-align:center;
+}
+
+p
+{
+font-family:"Comic Sans MS", cursive;
+font-size:20px;
+text-align:center;
+color:#0000A0;/*Dark Blue*/
+}
+
+img.center {
+    display:
+}

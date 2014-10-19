@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:#AA1111;
+	alignment-adjust:central;
+	border-color:#00000; /*black color*/
+	border-style:groove;
+	border-width:20px;
+	padding:1px;
+	margin-left:220px;
+	margin-right:220px;
+	margin-top:50px;
+	margin-bottom:50px;
+	background-image:url(images/green.jpg)
+}
+
+html {
+	background-color:#000099;
+	background-image:url(images/blue.jpg)
+}
+
+
+h1
+{
+	color:#FFF;/*White*/
+	text-align:center;
+	font-family:"Comic Sans MS", cursive;
+}
+
+p
+{
+	font-family:"Comic Sans MS", cursive;
+	font-size:20px;
+	text-align:center;
+	color:#0000A0;/*Dark Blue*/
+}
+
+p.text {
+	alignment-adjust:central
+	font-family:"Comic Sans MS", cursive;
+	font-size:20px;
+	color:#000000;/*Black*/
+}
+
+img.center {
+    display:
+}
+
+img{
+	border-color: #FFF;
+	border-style:groove;
+	border-width: 7px;
+}
+
+a {
+	color:#ffffff;
+	font-weight: bold;
+}
+
+a:hover {
+	font-size: 20px;
+	text-decoration:blink;
+	color: #120F09;
+}
+
+#nav{
+	text-align: center;
+	border-style:groove;
+	border-width: 7px;
+	background-color: #008000;
+	border-color:#FFF;
+	padding:1px;
+	font-family:"Comic Sans MS", cursive;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:30px;
+	margin-left:300px;
+	margin-right:300px;
+}
+
+#nav li {
+  display:inline;
+}
+
+
+h4 {
+	text-align:left;
+	font-family:"Comic Sans MS", cursive;
+	color: #120F09; /*black*/
+}
+
+h2 {
+	font-family:"Comic Sans MS", cursive;
+	padding: 7px;
+	color: #FDFF00;
+	background:#666;
+}
+
+h3 {
+	font-family:"Comic Sans MS", cursive;
+	color: #120F09; /*black*/
+	text-decoration:underline;
+}
+
+li {
+	font-family:"Comic Sans MS", cursive;
+	color: #0000FF;
+	alignment-adjust:central;
+}
